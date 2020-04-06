@@ -2,9 +2,9 @@
 
 Honors project to make a sunrise alarm clock.
 - I am currently revising the design to use less hardware.
-- `Hardware/` folder contains parts lists and hardware schematics.
+- `Hardware/` folder contains hardware schematics.
 - `Arduino_Test/` folder contains Arduino sketches to test the hardware designs.
-- Will soon include `src/` and `install/` directories for implementation code and installation
+- Will soon include `src/` and `install/` directories for implementation code and installation.
 
 ## Current Design
 
@@ -15,12 +15,12 @@ Currently I have custom hardware designed to multiplex the [seven segment displa
 The seven segment multiplexer has the following major components:
 - 555 astable oscillator to generate a steady clock pulse.
 - Four 8-bit shift registers to hold the digit values, driven by the 555 circuit.
-- 7-bit counter to select which digit is active on the display
+- 7-bit counter to select which digit is active on the display.
 
 ### NeoPixel Signal Generation
 
 The NeoPixel signal generation circuit has the following major components:
-- 3.2768 MHz oscillator to drive a counter
+- 3.2768 MHz oscillator to drive a counter.
 - Two 64-bit shift registers to store the light values.
 - Two 4-input multiplexors to generate either 1 or 0 signals.
 - 12-bit counter to control the shift register and multiplexors.
