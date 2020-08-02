@@ -1,4 +1,4 @@
-# Sunrise_Alarm_Clock
+# sunrise_alarm_clock
 
 Honors project to make a sunrise alarm clock.
 - I am currently revising the design to use less hardware.
